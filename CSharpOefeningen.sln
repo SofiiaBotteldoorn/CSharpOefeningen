@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WachtwoordGenerator", "05_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punten", "06_Arrays\Punten\Punten.csproj", "{3305BEFC-CD9E-6CB3-6C5F-3C83A220284F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Bestanden", "06_Bestanden", "{8A3B658A-CF64-4114-A97B-8A9FBCAE52DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StadPostcode", "StadPostcode\StadPostcode.csproj", "{DD1FD5E4-47B6-4D1C-A444-CA48E10277E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{3305BEFC-CD9E-6CB3-6C5F-3C83A220284F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3305BEFC-CD9E-6CB3-6C5F-3C83A220284F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3305BEFC-CD9E-6CB3-6C5F-3C83A220284F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1FD5E4-47B6-4D1C-A444-CA48E10277E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1FD5E4-47B6-4D1C-A444-CA48E10277E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1FD5E4-47B6-4D1C-A444-CA48E10277E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1FD5E4-47B6-4D1C-A444-CA48E10277E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +81,7 @@ Global
 		{CC28F102-D485-AB1F-D232-8881DD15B036} = {02BB7986-756F-4585-BA73-A985FD571858}
 		{14E76467-7F92-E12B-8700-6434D0755558} = {0E5EDAD1-316F-4630-836A-6E7A3D3E3A49}
 		{3305BEFC-CD9E-6CB3-6C5F-3C83A220284F} = {D21E6DA2-3987-4EC3-AE30-05C01073DA73}
+		{DD1FD5E4-47B6-4D1C-A444-CA48E10277E4} = {8A3B658A-CF64-4114-A97B-8A9FBCAE52DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B2272CD-8407-4C2D-92B1-F2C7172E883D}
