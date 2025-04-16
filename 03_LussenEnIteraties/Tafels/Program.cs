@@ -6,7 +6,14 @@ int getal;
 do
 {
     Console.WriteLine("Geef positieve getal voor tafel:");
-    getal = int.Parse(Console.ReadLine());
+    if(int.TryParse(Console.ReadLine(), out getal) &&  getal > 0)
+    {
+        break;
+    }
+    else 
+    {
+       Console.WriteLine("Ongeldig invoer");
+    }
 }
 while (getal <= 0);
 
