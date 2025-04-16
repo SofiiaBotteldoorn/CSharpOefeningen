@@ -1,0 +1,27 @@
+"Delegates & Lambdas in C# – Console Applicatie"
+
+Een interactieve consoleapplicatie waarin delegates, lambda-expressies, multicast delegates, en method overloading centraal staan. 
+Gebruikers kunnen getallen invoeren en verschillende bewerkingen en filters toepassen via een overzichtelijk menu.
+
+- delegate en eigen delegate-types (Bewerking, GetalFilter, ...)
+- Action<T>, Func<T1, T2>, lambda-expressies
+- Method overloading voor ToonGetallen(...)
+- Dictionary<char, char> voor usernaam
+- Inputvalidatie met TryParse
+- Multicast delegate voor begroeting
+
+Multicast delegate toepast voor een gepersonaliseerde begroeting
+(usernaam, datum, tijd)
+
+========Consolemenu=======
+1. Positieve getallen tonen
+2. Even getallen tonen
+3. Oneven getallen tonen
+4. Halveer getallen
+5. Kwadraat berekenen
+6. Som berekenen
+7. Absolute waarden tonen
+8. Getallen tussen 10 en 50
+9. Input naar hoofdletters
+10. Input omgekeerd tonen
+0. Afsluiten
