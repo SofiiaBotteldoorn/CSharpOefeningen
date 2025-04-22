@@ -1,0 +1,17 @@
+Een console-applicatie die een lijst van boeken verwerkt en analyseert met behulp van LINQ, lambda-expressies, Query Expressions
+
+Deze applicatie toont o.a.:
+
+-  Boeken goedkoper dan 15 euro (gesorteerd op prijs)
+-  Aantal boeken per genre
+-  Gemiddelde & hoogste prijzen van boeken
+-  Titels van dikke boeken (> 500 pagina’s)
+-  Boeken die starten met de letter "T"
+-  Unieke genres (zonder dubbels)
+-  Boeken per genre, met:
+  - Aantal boeken
+  - Gemiddelde prijs
+  - Gesorteerd op titel
+-  Duurste boek per genre
+-  Boeken gesorteerd op auteur
+-  Per genre: titels gesorteerd op prijs dalend
