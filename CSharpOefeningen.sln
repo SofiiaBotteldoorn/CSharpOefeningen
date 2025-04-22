@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punten", "05_Arrays\Punten\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WachtwoordGenerator", "04_Strings\WachtwoordGenerator\WachtwoordGenerator.csproj", "{79A4BEEE-1D47-C1D3-6C05-2F290C6A418D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08_LINQ", "08_LINQ", "{E93564AC-FAFE-4792-A988-150D763541F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{F770E64A-1CE4-4101-8A96-CADECE0FABB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,10 @@ Global
 		{79A4BEEE-1D47-C1D3-6C05-2F290C6A418D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79A4BEEE-1D47-C1D3-6C05-2F290C6A418D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79A4BEEE-1D47-C1D3-6C05-2F290C6A418D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F770E64A-1CE4-4101-8A96-CADECE0FABB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F770E64A-1CE4-4101-8A96-CADECE0FABB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F770E64A-1CE4-4101-8A96-CADECE0FABB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F770E64A-1CE4-4101-8A96-CADECE0FABB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +99,7 @@ Global
 		{8D3AE9BD-38D2-6397-E44F-747EF2E0E443} = {579A0A5B-EE2D-440F-B141-30D9D59DD7C8}
 		{D9A376B7-4917-2339-54E8-928396CBF1B4} = {D21E6DA2-3987-4EC3-AE30-05C01073DA73}
 		{79A4BEEE-1D47-C1D3-6C05-2F290C6A418D} = {0E5EDAD1-316F-4630-836A-6E7A3D3E3A49}
+		{F770E64A-1CE4-4101-8A96-CADECE0FABB7} = {E93564AC-FAFE-4792-A988-150D763541F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B2272CD-8407-4C2D-92B1-F2C7172E883D}
